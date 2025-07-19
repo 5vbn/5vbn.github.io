@@ -118,7 +118,7 @@ fetchDomainList().then(domainList => {
                 showlink.innerHTML = '';
                 main.insertAdjacentHTML('afterBegin',
                     '<p>发布页地址1：<a href="https://5vbn.com"><span class="host">5vbn.com</span></a></p> ' +
-                    '<p>发布页地址2：<a href="https://5vbn.github.io/"><span class="host">https://5vbn.github.io/</span></a></p>' +
+                    '<p>发布页地址2：<a href="https://5vbn.github.io/"><span class="host">5vbn.github.io</span></a></p>' +
                     '<p>防止走丢，请保存上面的发布页到书签。</p>' +
                     '<p style="color:red">可通過本頁面或下面方式取得新地址</p>');
                 showlink.insertAdjacentHTML('afterBegin', '<p>新的地址</p><SPAN class="link" id="use"></SPAN>' +
